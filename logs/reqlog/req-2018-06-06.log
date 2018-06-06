@@ -1,0 +1,10 @@
+[2018-06-06T10:30:17.805] [INFO] default - test info 1
+[2018-06-06T10:30:32.980] [INFO] default - [::1 GET / 304 16ms][ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-06T10:30:33.020] [INFO] default - [::1 GET /stylesheets/style.css 200 30ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-06T10:31:23.430] [INFO] default - test info 1
+[2018-06-06T10:31:36.025] [INFO] default - [::1 GET / 304 20ms][ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-06T10:31:36.063] [INFO] default - [::1 GET /stylesheets/style.css 200 30ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-06T10:31:45.642] [INFO] default - [::1 GET / 304 2ms][ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-06T10:31:45.658] [INFO] default - [::1 GET /stylesheets/style.css 304 2ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-06T10:31:46.553] [INFO] default - [::1 GET / 304 1ms][ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-06T10:31:46.561] [INFO] default - [::1 GET /stylesheets/style.css 304 1ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
