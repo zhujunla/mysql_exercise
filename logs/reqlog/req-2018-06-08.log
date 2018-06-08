@@ -1,0 +1,11 @@
+[2018-06-08T09:59:11.129] [INFO] default - test info 1
+[2018-06-08T09:59:12.189] [INFO] default - [::1 GET /socket.io/?EIO=3&transport=polling&t=MFT7ddZ 404 72ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-08T09:59:19.105] [INFO] default - [::1 GET /socket.io/?EIO=3&transport=polling&t=MFT7fKy 404 3ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-08T09:59:26.103] [INFO] default - [::1 GET /socket.io/?EIO=3&transport=polling&t=MFT7h2K 404 2ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-08T09:59:31.618] [INFO] default - [::1 GET / 200 5ms][ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-08T09:59:31.634] [INFO] default - [::1 GET /socket.io/socket.io.js 404 1ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-08T09:59:31.662] [INFO] default - [::1 GET /stylesheets/style.css 200 29ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-08T09:59:31.685] [INFO] default - [::1 GET /favicon.ico 404 1ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-08T10:00:12.572] [INFO] default - [::1 GET / 304 2ms][ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-08T10:00:12.582] [INFO] default - [::1 GET /socket.io/socket.io.js 404 2ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]
+[2018-06-08T10:00:12.585] [INFO] default - [::1 GET /stylesheets/style.css 304 5ms][http://localhost:3000/ HTTP/1.1 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.62 Safari/537.36]

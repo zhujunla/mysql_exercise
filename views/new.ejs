@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="/js/jquery.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <input id="input" type="text">
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      console.info(window)
+      var Socket = new WebSocket('ws://localhost:3000/socket.io/?EIO=3&transport=polling&t=MFTTJ6n');
+
+
+      var Socket = io.connect('http://localhost:3000');
+      Socket.on('news',function(data){
+
+        $("#input").val(data)
+      // Socket.onopen=function(data) {
+      //   console.log(data);  
+      // }  
+      //   $("#input").val(data)
+        // $('#btnSumit').click(function() {
+        //   socket.emit('getNews', { my: $("#inputs").val()});
+        // });
+        // $("body").keydown(function() {
+        //      if (event.keyCode == "13") {//keyCode=13是回车键
+        //       $('#btnSumit').click();
+        //      }
+        //  });
+      // };
+    })
+    </script>
+</body>
+</html>

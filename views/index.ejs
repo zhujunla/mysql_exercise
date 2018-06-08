@@ -3,9 +3,32 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="/js/jquery.js"></script>
   </head>
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+    <input id="inputs" type="text">
+    <button id='btnSumit'>提交</button>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io.connect('ws://localhost:3000');
+      socket.on('news', function (data) {
+        console.log(data);
+        
+       
+        
+      });
+
+      $('#btnSumit').click(function() {
+          console.info(123456)
+          socket.emit('getNews', $("#inputs").val());
+        });
+        $("body").keydown(function() {
+             if (event.keyCode == "13") {//keyCode=13是回车键
+              $('#btnSumit').click();
+             }
+         });
+    </script>
   </body>
 </html>
